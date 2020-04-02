@@ -123,7 +123,7 @@
             "entryFilePath": "Resources\/app\/storefront\/src\/main.js",
             "webpack": null,
             "styleFiles": [
-                "vendor\/shopware\/storefront\/Resources\/app\/storefront\/src\/scss\/base.scss",
+                "\/Users\/werk\/GitHub\/dutchdrops\/degroeneweg\/vendor\/shopware\/storefront\/Resources\/app\/storefront\/src\/scss\/base.scss",
                 "@Plugins"
             ]
         }
@@ -144,6 +144,46 @@
             "entryFilePath": null,
             "webpack": null,
             "styleFiles": []
+        }
+    },
+    "SwagPlatformDemoData": {
+        "basePath": "custom\/plugins\/SwagPlatformDemoData\/src\/",
+        "views": [
+            "Resources\/views"
+        ],
+        "technicalName": "swag-platform-demo-data",
+        "administration": {
+            "path": "Resources\/app\/administration\/src",
+            "entryFilePath": null,
+            "webpack": null
+        },
+        "storefront": {
+            "path": "Resources\/app\/storefront\/src",
+            "entryFilePath": null,
+            "webpack": null,
+            "styleFiles": []
+        }
+    },
+    "DegroenewegTheme": {
+        "basePath": "vendor\/dutchdrops\/degroeneweg-theme\/src\/",
+        "views": [
+            "Resources\/views"
+        ],
+        "technicalName": "degroeneweg-theme",
+        "administration": {
+            "path": "Resources\/app\/administration\/src",
+            "entryFilePath": null,
+            "webpack": null
+        },
+        "storefront": {
+            "path": "Resources\/app\/storefront\/src",
+            "entryFilePath": "Resources\/app\/storefront\/src\/main.js",
+            "webpack": null,
+            "styleFiles": [
+                "\/Users\/werk\/GitHub\/dutchdrops\/degroeneweg\/vendor\/dutchdrops\/degroeneweg-theme\/src\/Resources\/app\/storefront\/src\/scss\/overrides.scss",
+                "@Storefront",
+                "\/Users\/werk\/GitHub\/dutchdrops\/degroeneweg\/vendor\/dutchdrops\/degroeneweg-theme\/src\/Resources\/app\/storefront\/src\/scss\/base.scss"
+            ]
         }
     }
 }
