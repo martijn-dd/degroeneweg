@@ -49,3 +49,5 @@ custom/*
 !/var/queue/.gitkeep
 !/var/test/.gitkeep
 !/var/plugins.json
+
+.DS_Store
